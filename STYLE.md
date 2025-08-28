@@ -24,12 +24,19 @@ make all
 ```bash
 make run
 ```
-## Coding Specifications 
-- Comments : Explain complex code with clear comments
-- Function Design  : Keep it short and single in function
--  Consistent style  : Follow the existing code style
-- Document : Add documentation for core functions
+## Coding Specifications
+- Curly Bracket Style:**K&R**(Kernel Traditional Style)
+ ```c 
+int init (){
+//Functional logic
 
+return 0;
+}
+```
+- Indentation Style:**Four spaces**,**Disable tab**
+-Kernel code: using serpentine nomenclature (snake_case)
+- Macro definition: use full capitalization serpentine nomenclature (SCREAMING_SNAKE_CASE)
+- About the use of goto:Prevents complex logic from being written within a goto statement, which can only be used for error handling and temporary jumps.
 ##  Areas in Need of help 
 Core Functions  : Memory management, process scheduling algorithms
 - Extended Development : File system, driver
